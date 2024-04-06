@@ -13,6 +13,12 @@ public class ConbertBinaryToDecimal {
 
         int finalans=0;
         int pw=1;
+        if (binary_Digit < 0) {
+            System.out.println("Invalid number plase inter positive number");
+            
+        }else{
+
+        
         while(binary_Digit > 0){
 
             int unit_Digit = binary_Digit %10;
@@ -22,5 +28,6 @@ public class ConbertBinaryToDecimal {
 
         }
         System.out.println(finalans);
+        }
     }
 }
